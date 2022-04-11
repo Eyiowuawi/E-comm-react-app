@@ -1,0 +1,42 @@
+.section3 {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.section_3_bestseller {
+    text-align: center;
+    font-family: var(--poppins);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 52px;
+    color: #22262A;
+    /* padding-bottom: 1rem; */
+}
+
+.section3_nav {
+    width: 55%;
+    margin: auto;
+    /* padding-bottom: 2rem; */
+}
+
+.section3_nav ul {
+    display: flex;
+    width: 100%;
+    padding: 1rem 0;
+    margin: 1rem;
+    justify-content: space-between;
+}
+
+.section3_nav ul li {
+    font-family: var(--poppins);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.section3_nav ul li:hover {
+    border-bottom: 2px solid #33A0FF;
+    color: #33A0FF;
+}

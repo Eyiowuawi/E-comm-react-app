@@ -1,0 +1,86 @@
+footer {
+    width: 100%;
+    background-color: #BCDDFE;
+}
+
+.footer_container {
+    width: 80%;
+    margin: auto;
+    padding-top: 5rem;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer1_div {
+    padding-bottom: 3rem;
+    flex-basis: 35%;
+}
+
+.footer1_div p {
+    width: 50%;
+}
+
+.footer1_div2 {
+    padding-top: 1rem;
+    width: 20%;
+}
+
+.footer1_div2 h1 {
+    padding-bottom: 0.5rem;
+    font-family: var(--poppins);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+}
+
+.socialmediaapp {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+}
+
+.footer2 {
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+.information {
+    width: 25%;
+    justify-content: space-between;
+}
+
+.information h1 {
+    font-family: var(--poppins);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+    padding-bottom: 1rem;
+}
+
+.information ul li {
+    font-family: var(--poppins);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #262626;
+}
+
+.payment_card {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 0;
+    border-top: 1px solid #F6F7F8;
+}
+
+.payment_card img {
+    padding: 0 0.5rem;
+}

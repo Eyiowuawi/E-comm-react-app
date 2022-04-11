@@ -1,0 +1,87 @@
+.section2 {
+    margin: auto;
+    width: 80%;
+    /* display: flex; */
+}
+
+.section2-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* margin: auto; */
+}
+
+.card1 {
+    position: relative;
+    width: 32rem;
+    height: auto;
+}
+
+.card1_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card1_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.card1-title {
+    font-family: var(--poppins);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #223263;
+    position: absolute;
+    top: 1rem;
+    left: 4rem;
+}
+
+.crossed-price {
+    font-family: var(--poppins);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    text-decoration-line: line-through;
+    color: #9098B1;
+    text-decoration: line-through;
+}
+
+.percentage {
+    font-family: var(--poppins);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #FB7181;
+}
+
+.card1-price1 {
+    position: absolute;
+    left: 2rem;
+    bottom: 2rem;
+}
+
+.card1-amount {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 180%;
+    letter-spacing: 0.5px;
+    color: #40BFFF;
+}
+
+.card-amt1 {
+    position: absolute;
+    right: 2rem;
+    bottom: 1rem;
+}

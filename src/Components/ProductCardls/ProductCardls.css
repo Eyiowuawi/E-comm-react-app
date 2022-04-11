@@ -1,0 +1,159 @@
+.product-card-ls-cont {
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+.product-card-ls {
+    width: 100%;
+    display: flex;
+    /* gap: 2rem; */
+    justify-content: space-between;
+}
+
+.product-img-ls-cont {
+    width: 19rem;
+    height: 17rem;
+    position: relative;
+}
+
+.product-img-ls-cont img {
+    width: 100%;
+    height: 100%;
+}
+
+.ls-Hot {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    background-color: #FF4858;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.product-details-cont {
+    width: 74%;
+}
+
+.product-title-ls {
+    font-family: var(--poppins);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #22262A;
+}
+
+.review {
+    padding-bottom: 1rem;
+}
+
+.review-num {
+    /* font-family: 'Proxima Nova'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #C1C8CE;
+    padding: 0 1rem;
+}
+
+.review-submit {
+    /* font-family: 'Proxima Nova'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #33A0FF;
+}
+
+.product-amount {
+    font-family: var(--poppins);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 180%;
+    letter-spacing: 0.5px;
+    color: #40BFFF;
+}
+
+.product-crossed-price {
+    font-family: var(--poppins);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    text-decoration-line: line-through;
+    color: #9098B1;
+    padding: 0 1rem;
+}
+
+.product-percentage {
+    font-family: var(--poppins);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    color: #FB7181;
+}
+
+.product-details {
+    font-family: var(--poppins);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #262626;
+    padding: 1rem 0;
+}
+
+.cart-ls {
+    /* font-family: 'Proxima Nova'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #33A0FF;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    /* border: 1px solid #33A0FF; */
+    background-color: #BCDDFE;
+}
+
+.heart-ls {
+    color: #33A0FF;
+    background-color: #BCDDFE;
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    /* border: 1px solid #33A0FF; */
+}
+
+.product-list-btn {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+
+button {
+    border: none;
+}
+
+.ls-line1 {
+    width: 60%;
+    height: 3px;
+    background-color: #F6F7F8;
+}
+
+.ls-line2 {
+    width: 95%;
+    height: 2px;
+    background-color: #F6F7F8;
+    margin: auto;
+}
