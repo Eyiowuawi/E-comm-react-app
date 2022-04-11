@@ -1,6 +1,6 @@
 import React from 'react'
 import ProductCardGrid from '../ProductCardGrid/ProductCardGrid'
-import './ProductCardContainer.css'
+import './ProductGridContainer.css'
 
 function ProductGridContainer() {
   return (

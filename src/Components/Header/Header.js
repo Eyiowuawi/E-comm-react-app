@@ -4,7 +4,7 @@ import Logo from '../../Assets/Images/logo.png'
 import { FaRegUser } from 'react-icons/fa'
 import { BiCart } from "react-icons/bi";
 import { CartState } from '../../Context/Context';
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header = ({setShow}) => {
   const {state: {cart}}=CartState()
@@ -47,10 +47,12 @@ const Header = ({setShow}) => {
                <span> My profile </span>{' '}
             </div>{' '}
           </div>{' '}
-          <div className="cart" onClick={()=>setShow(false)}>
-            <BiCart fontSize='30px'/>
-            <span class='item-count'>{cart.length}</span>
-          </div>
+          <Link to="/cart">
+            <div className="cart" onClick={()=>setShow(false)}>
+              <BiCart fontSize='30px'/>
+              <span class='item-count'>{cart.length}</span>
+            </div>
+          </Link>
           <div className="upper-nav-right">
             <span> Items </span> <span> $0 .00 </span>
             <i className="fas fa-search"> </i>
@@ -66,11 +68,14 @@ const Header = ({setShow}) => {
         </div>{' '}
         <div className="nav-container">
           <ul className="nav-bar">
-            <li> HOME </li> <li onClick={()=>setShow(true)}> BAG </li> <li> SNEAKERS </li> <li> BELT </li>{' '}
-            <li> CONTACT </li>{' '}
-          </ul>{' '}
-        </div>{' '}
-      </div>{' '}
+            <Link to="/home"><li> HOME </li></Link>
+            <li onClick={()=>setShow(true)}> BAG </li> 
+            <li> SNEAKERS </li> 
+            <li> BELT </li>
+            <Link to ='/contactus'><li> CONTACT </li></Link>
+          </ul>
+        </div>
+      </div>
     </header>
   )
 }

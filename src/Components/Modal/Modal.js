@@ -94,9 +94,9 @@ export const Modal = ({ showModal, setShowModal }) => {
                 alt="camera"
               />
               <ModalContent>
-                <h1> Are you ready ? </h1>{' '}
-                <p> Get exclusive access to our next launch. </p>{' '}
-                <button> Join Now </button>{' '}
+                <h1> Are you ready ? </h1>
+                <p> Get exclusive access to our next launch. </p>
+                <button> Join Now </button>
               </ModalContent>
               <CloseModalButton
                 aria-label="Close modal"
@@ -105,7 +105,7 @@ export const Modal = ({ showModal, setShowModal }) => {
             </ModalWrapper>
           </animated.div>
         </Background>
-      ) : null}{' '}
+      ) : null}
     </>
   )
 }
