@@ -28,8 +28,7 @@
         flex-wrap: wrap;
         justify-content: center;
         margin: auto;
-        /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25); */
-        /* margin-left: -5rem; */
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
     }
     
     .contactUs-lf-cont {
@@ -40,19 +39,114 @@
     background-size: cover; */
     }
     
+    .contacUs-bg-div {
+        width: 100%;
+        height: 51rem;
+    }
+    
+    .bluebg {
+        width: 100%;
+        height: 100%;
+    }
+    
     .contactUs-txt {
         position: absolute;
         top: 0;
-        right: 2rem;
+        right: 12rem;
+    }
+    
+    .contactUs-txt h2 {
+        width: 200px;
+        font-family: var(--raleway);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 47px;
+        color: #FFFFFF;
+        padding: 7rem 0 9rem 0;
+    }
+    
+    .contactUs-txt p {
+        font-family: var(--raleway);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: flex-end;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        padding: 0.5rem 0;
+        width: 200px;
     }
     
     .call-bg {
         position: absolute;
-        top: 0;
-        left: 0;
+        bottom: 0rem;
+        left: -8rem;
     }
     
     .contactUs-rt-cont {
         width: 50%;
         padding-left: 5rem;
+    }
+    
+    .input-flex-div {
+        padding-top: 7rem;
+    }
+    
+    .input-flex {
+        padding-top: 1rem;
+    }
+    
+    .input-flex input {
+        width: 30rem;
+        height: 5rem;
+        border: 1px solid #969393;
+        padding-left: 1rem;
+    }
+    
+    .input-flex input:hover {
+        border: 1px solid #33A0FF;
+    }
+    
+    .input-flex h3 {
+        font-family: var(--raleway);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: flex-end;
+        color: #373737;
+    }
+    
+    .text-area {
+        padding-top: 1rem;
+    }
+    
+    .text-area h4 {
+        font-family: var(--raleway);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: flex-end;
+        color: #373737;
+    }
+    
+    .text-area textarea {
+        width: 30rem;
+        border: 1px solid #969393;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+    
+    .text-area textarea:hover {
+        border: 1px solid #33A0FF;
+    }
+    
+    .search-contact {
+        padding-top: 2rem;
     }

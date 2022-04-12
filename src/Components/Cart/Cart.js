@@ -92,7 +92,7 @@ function Cart() {
           <div className="total">
             <span>TOTAL</span><span>$118</span>
           </div>
-          <button onClick={(e) => setVisibility(!visibility)} className='checkout'>Toggle Popup</button>
+          <button onClick={(e) => setVisibility(!visibility)} className='checkout'>Check out</button>
           {/* <button onClick={openModal} className='checkout'>Check out</button> */}
           {/* <Modal showModal={showModal} setShowModal={setShowModal} /> */}
           <CustomPopup onClose={popupCloseHandler} show={visibility} title="Hello Jeetendra">

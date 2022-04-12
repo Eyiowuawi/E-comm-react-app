@@ -15,8 +15,8 @@ const ContactUs = () => {
         </div> 
         <div className='contactUs-container'>
             <div className='contactUs-lf-cont'>
-                <div>
-                    <img src={ContactUsbg} alt="Oncall" />
+                <div className='contacUs-bg-div'>
+                    <img className='bluebg' src={ContactUsbg} alt="blue-bg" />
                 </div> 
                 <div className='contactUs-txt'>
                     <h2>get in touch</h2>
@@ -44,6 +44,12 @@ const ContactUs = () => {
                         {/* <button class="submit-btn">SEND MESSAGE</button> */}
                     </div>
                 </form>
+            </div>
+        </div>
+        <div className='search search-contact'>
+            <div className='search-container' >
+                <input className='search-input' type="text" placeholder='Search query...' />
+                <button className='btn-search'>Search</button>
             </div>
         </div>
     </div>
