@@ -10,6 +10,7 @@ import { CartState } from '../../Context/Context'
 const ProductCardGrid = () => {
 
   const { state: { products } } = CartState();
+  
   const [noOfElement, setnoOfElement] = useState(5); 
   const loadMore =()=>{
     setnoOfElement(noOfElement + noOfElement)

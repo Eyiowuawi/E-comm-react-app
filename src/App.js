@@ -19,7 +19,7 @@ function App() {
     <Router>
       <Header setShow={setShow}/>
       <Switch>
-      <Route path='/home' component={Home} exact />
+      <Route path='/' component={Home} exact />
       <Route path='/contactus' component={ContactUs} exact />  
       <Route path='/dashboard' component={Dashboard} exact />  
       <Route path='/cart' component={Cart} exact />  
