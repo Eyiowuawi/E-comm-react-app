@@ -20,7 +20,7 @@ header {
     /* position: absolute; */
     /* top: 0; */
     background-color: #FFFFFF;
-    height: 120px;
+    /* height: 150px; */
 }
 
 select {
@@ -69,6 +69,7 @@ li {
 .cart {
     /* width: 200px; */
     position: relative;
+    color: #ffffff;
 }
 
 .profile {
