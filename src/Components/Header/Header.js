@@ -81,10 +81,10 @@ const [dropdown, setDropdown] = useState(false)
               <li> CONTACT </li>
             </Link>
           </ul>
+      </div>
           <div className="hamburger" onClick={handleClick}>      
             {click ? <FaBars fontSize='30px'/> : <FaTimes fontSize='30px'/>}
           </div>
-      </div>
       <div className={!dropdown ? 'home-dropdown clicked': 'home-dropdown'} onClick={()=> setDropdown(!dropdown)}>
             <div className='dropdown-col-div'>
               <h1>CATEGORY</h1>
