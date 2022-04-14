@@ -20,6 +20,7 @@ header {
     /* position: absolute; */
     /* top: 0; */
     background-color: #FFFFFF;
+    height: 120px;
 }
 
 select {
@@ -56,9 +57,25 @@ li {
     justify-content: space-between;
 }
 
+.lang {
+    width: 100px;
+    margin-right: 3rem;
+    padding-left: none;
+    background: #ffffff;
+    border: none;
+    font-size: 16px;
+}
+
 .cart {
     /* width: 200px; */
     position: relative;
+}
+
+.profile {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
 }
 
 .item-count {
@@ -76,6 +93,8 @@ li {
 .upper-nav-right {
     width: fit-content;
     gap: 1rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .upper-nav-right span {
@@ -108,6 +127,7 @@ li {
 
 .nav-container {
     width: 60%;
+    /* position: fixed; */
 }
 
 .nav-bar {
@@ -138,7 +158,7 @@ li {
     background-image: url("./Assets/Images/Promotion\ Image.png");
     background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: -7rem;
+    margin-bottom: -10rem;
 }
 
 .section_1_1 {
@@ -156,7 +176,66 @@ li {
     text-align: left;
     letter-spacing: 0.5px;
     color: #FFFFFF;
-    padding-top: 20rem;
+    padding-top: 15rem;
+}
+
+.home-dropdown {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 2rem; */
+    position: absolute;
+    top: 8rem;
+    right: 25%;
+    background: #FFFFFF;
+    padding: 2rem;
+    width: 45%;
+}
+
+
+/* .home:hover.home-dropdown {
+    display: flex;
+} */
+
+.home-dropdown.clicked {
+    display: none;
+}
+
+.dropdown-col-div {
+    width: 38%;
+}
+
+.dropdown-col-div2 {
+    width: 20%;
+}
+
+.dropdown-inner-col {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.home-dropdown li {
+    font-family: var(--poppins);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #262626;
+    padding-bottom: 1rem;
+}
+
+.home-dropdown h1 {
+    font-family: var(--poppins);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    color: #C1C8CE;
+    text-align: center;
+}
+
+.col1 {
+    width: 45%;
 }
 
 
@@ -167,6 +246,7 @@ li {
 @media screen and (max-width: 1000px) {
     .hamburger {
         display: flex;
+        color: #40bfff;
     }
     .nav-container {
         display: none;

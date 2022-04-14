@@ -52,7 +52,7 @@
     .contactUs-txt {
         position: absolute;
         top: 0;
-        right: 12rem;
+        right: 8rem;
     }
     
     .contactUs-txt h2 {
@@ -100,7 +100,7 @@
     }
     
     .input-flex input {
-        width: 30rem;
+        width: 65%;
         height: 5rem;
         border: 1px solid #969393;
         padding-left: 1rem;
@@ -137,7 +137,7 @@
     }
     
     .text-area textarea {
-        width: 30rem;
+        width: 65%;
         border: 1px solid #969393;
         padding-left: 1rem;
         padding-top: 1rem;

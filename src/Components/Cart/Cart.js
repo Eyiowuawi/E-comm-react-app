@@ -47,7 +47,7 @@ function Cart() {
   }, [cart]);
 
   const [payment, setPayment] = useState(0);
-
+  const totalPrice = total+20;
   const FormTitle= ['Make Payment', 'Make Payment', 'Make Payment'];
 
   const PageDisplay=()=>{
@@ -185,7 +185,7 @@ function Cart() {
             <span>Coupon</span><span>No</span>
           </div>
           <div className="total">
-            <span>TOTAL</span><span>$118</span>
+            <span>TOTAL</span><span>${totalPrice}</span>
           </div>
           <button onClick={(e) => setVisibility(!visibility)} className='checkout'>Check out</button>
           {/* <button onClick={openModal} className='checkout'>Check out</button> */}
