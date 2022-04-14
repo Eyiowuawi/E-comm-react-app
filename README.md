@@ -5,6 +5,7 @@ this is my third project at Grazac Academy
 
 - [E-comm-web-app Travel landing page](#E-comm-web-app full pages)
   - [Links](#links)
+  - [Getting Started](#getting-started)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
@@ -20,13 +21,13 @@ Users should be able to:
 
 - User should be able to see all the available products and add them to the cart and as well make a purchase.
 
-
+### Getting Started
+![Getting Started](./src/Assets/Images/mywork.png)
 
 ### Links
+- [GitHub] (https://github.com/Eyiowuawi/E-comm-react-app.git)
 
-Solution Url: (https://github.com/Eyiowuawi/E-comm-react-app.git)
-
-Vercel Url: (https://e-comm-react-app.vercel.app/)
+- [Vercel] (https://e-comm-react-app.vercel.app/)
 
 ## Built with
 
