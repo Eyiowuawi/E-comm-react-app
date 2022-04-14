@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# JADOO-Travel
+this is my second project at Grazac Academy
+## Table of contents
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+- [JADOO-Travel landing page](#JADOO-Travel landing-page)
+  - [Links](#links)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+  - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-In the project directory, you can run:
 
-### `npm start`
+# E-comm web application
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Users should be able to:
 
-### `npm test`
+- User should be able to see all the available products and add them to the cart and as well make a purchase.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Links
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Solution Url: (https://github.com/Eyiowuawi/E-comm-react-app.git)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Vercel Url: (https://e-comm-react-app.vercel.app/)
 
-### `npm run eject`
+## Built with
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Reactjs with the use of React Hooks, Reducer, Context api and so om
+- CSS custom properties
+- Flexbox and grid
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### What I learned
+I learnt to really use the context api and the use of hooks.
+I learnt to use the useState and useEffect hooks.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Challenges
+ I encountered a lot of problems with the use of the context api and the use of the useState and useEffect hooks but I managed to solve them.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Continued development
 
-### Code Splitting
+I want to focus more on reactjs, media query, and css animations.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Useful resourses
 
-### Analyzing the Bundle Size
+- [Google Fonts](https://www.fonts.google.com) - This help me with the various fonts used in my project.
+- [youtube tutorials](https://www.youtube.com ) -the tutorials on YouTube by Kelvin Powell and many others were a great resource for me.
+- [w3schools](http://w3schools.com) - this was a major resource to get used to css, JavaScript and html
+- [Stack overflow](http://stackoverflow.com) - this was a go back place to resolve some of the bugs I had using git and GitHub.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Author
 
-### Making a Progressive Web App
+- Twitter - [@tolu_wa_laseh](https://www.twitter.com/tolu_wa_laseh)
+- Github - [@eyiowuawi](https://www.github.com/eyiowuawi)
+- LinkedIn- [@adeosuntat] (www.linkedin.com/in/adeosuntat)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgments
+ I thank Mr Mayowa and Kevin Powell, Brian and traversy media who are my YouTube teacher. Thanks to Grazac for the experience of the challenge.
