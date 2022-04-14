@@ -155,7 +155,7 @@ li {
 
 .section_1 {
     width: 100vw;
-    height: 80vh;
+    /* height: 80vh; */
     background-image: url("./Assets/Images/Promotion\ Image.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -178,7 +178,7 @@ li {
     letter-spacing: 0.5px;
     color: #FFFFFF;
     padding-top: 12rem;
-    padding-bottom: 3rem;
+    padding-bottom: 8rem;
 }
 
 .home-dropdown {
