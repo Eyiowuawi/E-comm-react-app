@@ -1,9 +1,9 @@
-# JADOO-Travel
-this is my second project at Grazac Academy
+# E-comm App with Reactjs
+this is my third project at Grazac Academy
 ## Table of contents
 
 
-- [JADOO-Travel landing page](#JADOO-Travel landing-page)
+- [E-comm-web-app Travel landing page](#E-comm-web-app full pages)
   - [Links](#links)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
